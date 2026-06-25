@@ -1,17 +1,24 @@
 import "xp.css/dist/XP.css";
 import "./toolbar.css"
 import "./../../index.css"
-import { useState } from "react";
+import type { Dispatch, SetStateAction } from 'react';
 
 interface ToolbarProrps {
+    // lang: string;
+    setLang: Dispatch<SetStateAction<string>>;
 
+    seed: string;
+    setSeed: Dispatch<SetStateAction<string>>;
+
+    likes: number;
+    setLikes: Dispatch<SetStateAction<number>>;
 }
 
 export default function Toolbar({
-    lang, setLang,
+    setLang,
     seed, setSeed,
     likes, setLikes,
-}) {
+}: ToolbarProrps) {
     function getRandomSeed() {
         setSeed(Math.random().toString(36).substring(2, 64)); 
     }

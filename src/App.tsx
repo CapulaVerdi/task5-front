@@ -4,10 +4,6 @@ import Table from './components/table/Table';
 import "xp.css/dist/XP.css";
 import { useState } from 'react';
 
-interface AppProps {
-
-}
-
 function App() {
   const [lang, setLang] = useState('EN')
   const [seed, setSeed] = useState('')
@@ -17,7 +13,7 @@ function App() {
   return (
     <div className='flex-container'>
       <Toolbar 
-        lang={lang} setLang={setLang}
+        setLang={setLang}
         seed={seed} setSeed={setSeed}
         likes={likes} setLikes={setLikes} 
       ></Toolbar>
