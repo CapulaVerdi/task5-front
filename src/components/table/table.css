@@ -1,0 +1,43 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.content-title {
+    font-family: 'Courier New', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    border-bottom: 1px solid;
+}
+
+.content-title span {
+    flex: 4;
+}
+
+.content-title span:first-of-type {
+    flex: 1;
+}
+
+.content-title span:last-of-type {
+    flex: 1;
+}
+
+.window-scroll {
+    overflow-y: auto;
+    height: 77vh
+}
+
+.pagination-panel {
+    font-family: 'Courier New', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination-panel span {
+    margin: 0 15px;
+}

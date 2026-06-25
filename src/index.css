@@ -1,0 +1,23 @@
+body {
+  background: url('background.png') no-repeat;
+  background-size: cover;
+}
+
+.flex-container {
+  height: calc(100vh - 20px);
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0
+}
+
+.window-padding {
+    padding: 0 300px;
+}
+
+.window-margin-bottom {
+  margin-bottom: 20px;
+}

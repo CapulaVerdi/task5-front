@@ -1,0 +1,12 @@
+.flex-cont {
+    display: flex;
+}
+
+.toolbar-margin {
+    margin-right: 15px;
+}
+
+.range-margin {
+    margin-top: 0 !important;
+}
+
