@@ -1,7 +1,7 @@
 import './App.css'
 import Toolbar from './components/toolbar/Toolbar'
 import Table from './components/table/Table';
-import "xp.css/dist/XP.css";
+import "xp.css/dist/xp.css";
 import { useState } from 'react';
 
 function App() {
